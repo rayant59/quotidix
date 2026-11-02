@@ -1,6 +1,6 @@
 # Quotidix
 
-9 jeux quotidiens en français, jouables dans le navigateur : Pedantix, Cemantix, Semantus, Synoptix, Un jour un film, Tusmo, Food Gussr, Time Gussr et Culture Quiz.
+10 jeux quotidiens en français, jouables dans le navigateur : Encyclomot, Proximot, Constellia, CinéMyst, CinéJour, Sériejour, Motuska, FoodMyst, ChronoMyst et Quizorama.
 
 **Jouer : https://rayant59.github.io/quotidix/**
 
