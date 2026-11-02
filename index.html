@@ -112,7 +112,7 @@ body {
 		<script>
 // Réassemble index.wasm / index.pck à partir de morceaux gzip (voir tools/package_web.py)
 (function () {
-  var PARTS = {"index.wasm": 1, "index.pck": 1}, SIZES = {"index.wasm": 43699190, "index.pck": 10450784};
+  var PARTS = {"index.wasm": 1, "index.pck": 1}, SIZES = {"index.wasm": 43699190, "index.pck": 13461440};
   var origFetch = window.fetch.bind(window);
   window.fetch = function (input, init) {
     var url = typeof input === 'string' ? input : (input && input.url) || '';
@@ -138,7 +138,7 @@ body {
 </script>
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":10450784,"index.wasm":43699190},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":13461440,"index.wasm":43699190},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
